@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------navigation----------------*/
+.navigation{
+    background-color:lightgray;
+    padding: 10px;
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+
+
+nav {
+    margin-left: auto; 
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px; /* Optional: Add some space between navigation items */
+}
+
+/* Optional: Style the anchor (link) */
+nav a {
+    text-decoration: none;
+    color: black; /* Adjust the color as needed */
+}
+
+
+/*nav i {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+*/
+nav a:hover {
+    color: #ff9900;
+}
+
+/*----------------------------------------------------------Header--------------------------------------------------------------------------------*/
+
+.header{
+    display: flex;
+
+}
+
+
+
+
+/*----------------------------------------------------------Main----------------------------------------------------------------------------------*/
+
+
+.main {
+    background-image: url('pictures/image-1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 20px;
+}
+
+main {
+    max-width: 800px; /* Set a maximum width for the main content */
+    margin: 0 auto; /* Center the main content horizontally */
+}
